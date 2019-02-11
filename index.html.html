@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/superslides.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/MyPortfolio.css">
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="inner">
+        </div>
+    </div>
+
+
+    <div id="slides">
+
+        <div class="overlay"></div>
+        <div class="slides-container">
+            <img src="imgs/slide1.jpeg" alt="1">
+            <img src="imgs/slide2.jpg" alt="2">
+            <img src="imgs/slide3.jpg" alt="3">
+            <img src="imgs/slide4.jpeg" alt="4">
+        </div>
+
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">Daniel Lufcy</p>
+                <p class="sub typed"></p>
+            </div>
+        </div>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactSection">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="about" class="section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-5 profilePicContainer">
+                    <img class="aboutImage" src="../Serious/imgs/Portfolio/me.jpg" alt="">
+                </div>
+
+                <div class="col-md-7">
+
+                    <h4>My Name is Daniel Lufcy</h4>
+
+                    <p class="bioText">I've been learning web design and programming since July of 2018.
+                        My background is in the electrical as well as in the design field.
+                        I decided I wanted a change of pace so I took up learning programming and web design. My current focus is currently on CSS3 as well as
+                        jQuery and SASS.
+                        As I learn more I'll add more content to this site and hopefully tools for other to enjoy and share.
+                        Thanks for visiting!
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="skills" class="skillsSection section">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+                    <h2>Technical Skills</h2>
+                    <p>My proficiency in each skill</p>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                    <!-- html -->
+                    <div class="skill">
+                        <span class="chart" data-percent="67">
+                            <span class="percent">67</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>HTML5</h4>
+                        <p>I use HTML on all of my web based applications.</p>
+                    </div>
+                    <!-- CSS -->
+                    <div class="skill">
+                        <span class="chart" data-percent="48">
+                            <span class="percent">48</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>CCS3</h4>
+                        <p>Currently what I am focusing most of my attention learning.</p>
+                    </div>
+                    <!-- Javascript -->
+                    <div class="skill">
+                        <span class="chart" data-percent="30">
+                            <span class="percent">30</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Javascript</h4>
+                        <p>I use this to add interactivity on my more complex pages</p>
+                    </div>
+                    <!-- Bootstrap -->
+                    <div class="skill">
+                        <span class="chart" data-percent="63">
+                            <span class="percent">63</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Bootstrap</h4>
+                        <p>My favorite front end library for getting pages structured.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="stats" class="statsSection section">
+
+        <div class="container">
+
+            <div id="rowLinks" class="row">
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="squareItem">
+
+                        <div class="SquareInnerContainer">
+
+                            <div class="squareIcon">
+                                <i class="fab fa-github-alt stat1Icon"></i>
+                            </div>
+
+                            <div class="squareContent1">
+                                <h2 class="counter"><a href="https://github.com/ddlufcy"><i class="fab fa-github-square"></i></a></h2>
+                                <h4>GitHub</h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="squareItem">
+
+                        <div class="SquareInnerContainer">
+
+                            <div class="squareIcon">
+                                <i class="fab fa-stack-overflow stat2Icon"></i>
+                            </div>
+
+                            <div class="squareContent2">
+                                <h2 class="counter"><a href="https://stackoverflow.com/users/11010545/dluf"><i class="fab fa-stack-overflow"></i></a></h2>
+                                <h4>Stack-overflow</h4>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="squareItem">
+
+                        <div class="SquareInnerContainer">
+
+                            <div class="squareIcon">
+                                <i class="fab fa-linkedin-in stat3Icon"></i>
+                            </div>
+
+                            <div class="squareContent3">
+                                <h2 class="counter"><a href="https://www.linkedin.com/in/daniel-lufcy-93903a17b/"><i class="fab fa-linkedin"></i></a></h2>
+                                <h4>Linkedin</h4>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- <div class="col-md-3 col-sm-6">
+
+                                <div class="squareItem">
+            
+                                    <div class="SquareInnerContainer">
+            
+                                        <div class="squareIcon">
+                                            <i class="fa fa-clock stat4Icon"></i>
+                                        </div>
+            
+                                        <div class="squareContent">
+                                            <h2>4</h2>
+                                            <h3>Clients</h3>
+                                        </div>
+            
+                                    </div>
+            
+                                </div>
+            
+                            </div>      -->
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="contactSection section" id="contactSection">
+
+        <div class="col-md-12 text-center">
+
+            <p class="subHeading">Like what you see?</p>
+            <h2>I'd love to hear from you!</h2>
+            <a href="mailTo:ddlufcy@gmail.com" class="contactButton">Get in Touch</a>
+            <div class="phone">
+                <p id="phoneNumber"><a href="tel:+13179899433"><i class="fas fa-phone"></i>1-317-989-9433</a></p>
+                   
+                   
+                    
+            </div>
+        </div>
+
+    </div>
+
+    <div id="portfolio" class="section porfolioHeader">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="headingBox">
+                    <div class="heading">
+                        <h2>Portfolio/ <br> Current Projects//</h2>
+                    </div>
+                </div>
+                <!-- <div class="filter">
+
+                        <ul id="filter">
+                            <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                            <li><a href="#" data-filter=".apps">Apps</a></li>
+                            <li><a href="#" data-filter=".me">Me</a></li>
+                            <li><a href="#" data-filter=".websites">websites</a></li>
+                            
+                        
+                        </ul> -->
+
+            </div>
+
+            <div class="itemsContainer">
+
+                <div class="items">
+                    <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3"></li>
+
+                    <div class="item">
+
+                        <!-- <img src="imgs/Portfolio/Thumbnails/meSquared.jpg"  alt="#">
+
+                                    <div class="icons">
+                                        <a href="imgs/Portfolio/me.jpg" title="View Image" class="openButton" data-fancybox data caption="Picture">
+                                            <i class="fa fa-search"></i>
+                                        </a> 
+                                        <a href="" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a> 
+
+                                    </div> -->
+
+                    </div>
+                    </li>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="gameSection section" id="gameSection">
+        <div class="colorHeading">
+            <p>Color values are displayed at the top, <br>
+                click on the three corresspondingly colored squares. </p>
+        </div>
+        <div class="col-md-12 text-center">
+
+            <div class="colorGameContainer">
+                <div class="mainColorGame">
+                    <div class="finalColorGame">
+                        <h1>
+                            <!-- The Great -->
+                            <br>
+                            <span id="colorDisplay">RGB</span>
+                            <br>
+                            <!-- Color Game -->
+                        </h1>
+
+                        <div id="stripe">
+                            <button id="reset">New Colors</button>
+                            <span id="message"></span>
+                            <button class="mode">Easy</button>
+                            <button class="mode selected">Hard</button>
+                        </div>
+                        <div class="div">
+                            <div id="container">
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                            </div>
+                        </div>
+                        <div class="style">
+                            <style>
+                                .square {
+                                            width: 30%;
+                                            background: purple;
+                                            padding-bottom: 30%;
+                                            float: left;
+                                            margin: 1.66%;
+                                            border-radius: 15%;
+                                            transition: background 0.5s;
+                                            -webkit-transition: background 0.6s;
+                                            -moz-transition: background 0.6s;
+                                        }
+
+                                        #container {
+                                            margin: 20px auto;
+                                            max-width: 600px;
+
+
+                                        }
+                                        h1 {
+                                            text-align: center;
+                                            line-height: 1.1;
+                                            font-weight: normal;
+                                            color: white;
+                                            /* background: steelblue; */
+                                            /* margin: 0; */
+                                            text-transform: uppercase;
+                                            padding: 20px 0;
+                                        }
+
+                                        #colorDisplay {
+                                            font-size: 200%;
+                                        }
+
+                                        #message{
+                                            display: inline-block;
+                                            width: 20%;
+                                        }
+
+                                        #stripe {
+                                            background-color: white;
+                                            height: 30px;
+                                            text-align: center;
+                                            color: black;
+
+                                        }
+
+                                        .selected {
+                                            color: white;
+                                            background-color: steelblue;
+                                        }
+
+                                        button {
+                                            border: none;
+                                            background: none;
+                                            text-transform: uppercase;
+                                            height: 100%;
+                                            font-weight: 700;
+                                            color: steelblue;
+                                            letter-spacing: 1px;
+                                            font-size: inherit;
+                                            transition: all 0.3s;
+                                            outline: none;
+                                        }
+
+                                        button:hover {
+                                            color:white;
+                                            background-color; steelblue;
+                                        }
+
+                                   </style>
+                        </div>
+                    </div>
+
+                    <Script>
+                        var numSquares = 6;
+                                        var colors = generateRandomColors(numSquares);
+                                        var squares = document.querySelectorAll(".square");
+                                        var pickedColor = pickColor();
+                                        var colorDisplay = document.getElementById("colorDisplay");
+                                        var messageDisplay = document.querySelector("#message");
+                                        var h1 = document.querySelector("h1");
+                                        var resetButton =  document.querySelector("#reset");
+                                        var modeButtons = document.querySelectorAll(".mode");
+
+                                        init();
+
+                                        function init(){
+                                            //mode buttons
+                                            for(var i = 0; i < modeButtons.length; i++){
+                                                modeButtons[i].addEventListener("click", function(){
+                                                    modeButtons[0].classList.remove("selected");
+                                                    modeButtons[1].classList.remove("selected");
+                                                    this.classList.add("selected");
+                                                    this.textContent === "Easy" ? numSquares = 3: numSquares = 6;
+                                                    reset();
+                                                    });
+                                                }
+                                            }
+                                            for(var i = 0; i < squares.length; i++) {
+                                            //add click listeners to squares
+                                            squares[i].addEventListener("click", function(){
+                                                //grab color of clicked square
+                                                var clickedColor = this.style.backgroundColor;
+                                                //compare color to pickedColor
+                                                if(clickedColor === pickedColor){
+                                                    messageDisplay.textContent = "Correct!";
+                                                    resetButton.textContent = "Play Again?";
+                                                    changeColors(clickedColor);
+                                                    h1.style.backgroundColor = clickedColor;
+                                                } else {
+                                                    this.style.backgroundColor = "#232323";  
+                                                    messageDisplay.textContent = "Try Again";
+                                                }
+                                                });
+                                            }
+
+                                            reset();
+
+                                        function reset(){
+                                            colors = generateRandomColors(numSquares);
+                                            // pick new random colors from array
+                                            pickedColor = pickColor();
+                                            //change color display to match picked color
+                                            colorDisplay.textContent = pickedColor;
+                                            resetButton.textContent = "New Colors";
+                                            messageDisplay.textContent = "";
+                                            //change colors of the squares
+                                            for(var i = 0; i < squares.length; i++){
+                                                if(colors[i]){
+                                                squares[i].style.display = "block";
+                                                squares[i].style.backgroundColor = colors[i];
+                                                } else {
+                                                squares[i].style.display = "none";
+                                                }
+                                            }
+                                            // h1.style.backgroundColor = "steelblue";
+                                        }
+                                        // easyBtn.addEventListener("click", function(){
+                                        // 	hardBtn.classList.remove("selected");
+                                        // 	easyBtn.classList.add("selected");
+                                        // 	numSquares = 3;
+                                        // 	colors = generateRandomColors(numSquares);
+                                        // 	pickedColor = pickColor();
+                                        // 	colorDisplay.textContent = pickedColor;
+                                        // 	for(var i = 0; i < squares.length; i++){
+                                        // 	  if(colors[i]){
+                                        // 		squares[i].style.backgroundColor = colors[i];
+                                        // 		} else {
+                                        // 			squares[i].style.display = "none";
+                                        // 		}
+                                        // 	}
+                                        // });
+
+                                        // hardBtn.addEventListener("click", function(){
+                                        // 	hardBtn.classList.add("selected");
+                                        // 	easyBtn.classList.remove("selected");
+                                        // 	numSquares = 6;
+                                        // 	colors = generateRandomColors(numSquares);
+                                        // 	pickedColor = pickColor();
+                                        // 	colorDisplay.textContent = pickedColor;
+                                        // 	for(var i = 0; i < squares.length; i++){
+                                        // 		squares[i].style.backgroundColor = colors[i];
+                                        // 		squares[i].style.display = "block";
+                                        // 	}
+                                        // });
+
+                                        resetButton.addEventListener("click", function(){
+                                            reset();
+                                            // //generate all new colors
+                                            // colors = generateRandomColors(numSquares);
+                                            // // pick new random colors from array
+                                            // pickedColor = pickColor();
+                                            // //change color display to match picked color
+                                            // colorDisplay.textContent = pickedColor;
+                                            // this.textContent = "New Colors";
+                                            // messageDisplay.textContent = "";
+                                            // //change colors of the squares
+                                            // for(var i = 0; i < squares.length; i++){
+                                            // 	squares[i].style.backgroundColor = colors[i];
+                                            // }
+                                            // h1.style.backgroundColor = "steelblue";
+                                        });
+
+                                        colorDisplay.textContent = pickedColor;
+
+                                        for(var i = 0; i < squares.length; i++) {
+                                            //add click listeners to squares
+                                            squares[i].addEventListener("click", function(){
+                                                //grab color of clicked square
+                                                var clickedColor = this.style.backgroundColor;
+                                                //compare color to pickedColor
+                                                if(clickedColor === pickedColor){
+                                                    messageDisplay.textContent = "Correct!";
+                                                    resetButton.textContent = "Play Again?";
+                                                    changeColors(clickedColor);
+                                                    h1.style.backgroundColor = clickedColor;
+                                                } else {
+                                                    this.style.backgroundColor = "#232323";  
+                                                    messageDisplay.textContent = "Try Again";
+                                                }
+                                            });
+                                        }
+
+                                        function changeColors(color){
+                                            //loop through all squares
+                                            for(var i = 0; i < colors.length; i++){
+                                            //change each color to given color
+                                            squares[i].style.backgroundColor = color;
+                                            }
+                                        }
+                                        function pickColor(){
+                                            var random = Math.floor(Math.random() * colors.length);
+                                            return colors[random];
+                                        }
+
+                                        function generateRandomColors(num){
+                                            //make an array
+                                            var arr = []
+                                            //repeat num times
+                                            for(var i = 0; i < num; i++){
+                                                //get random color and push into array
+                                                arr.push(randomColor())
+                                            }
+                                            // return that array
+                                            return arr;
+                                        }
+                                        function randomColor(){
+                                            //pick "red" form 0 - 255
+                                            var r = Math.floor(Math.random() * 256);
+                                            //pick "green" form 0 - 255
+                                            var g = Math.floor(Math.random() * 256);
+                                            //pick "blue" form 0 - 255
+                                            var b = Math.floor(Math.random() * 256);
+                                            return "rgb(" + r + ", " + g + ", " + b +")";
+                                        }       
+
+                          </Script>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="portfolio" class="section weightDes">
+
+
+
+        <div class="container">
+
+            <div class="row weightRow">
+
+                <div class="weightConverter">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="weightDesc">
+                                <p>Input weight in Lbs and get real-time coversions.</p>
+                            </div>
+                            <div class="col-md-6 offset-md-3">
+                                <h1 id="weightText" class="display-4 text-center mb-3">Weight Converter</i></h1>
+                                <form>
+                                    <div class="form-group">
+                                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+                                    </div>
+                                </form>
+                                <!-- Grams -->
+                                <div id="output">
+                                    <div class="card bg-primary mb-2">
+                                        <div clas="card-block">
+                                            <h4>Grams:</h4>
+                                            <div id="gramsOutput"></i></div>
+                                        </div>
+                                    </div>
+                                    <!-- Kilograms	 -->
+                                    <div id="output">
+                                        <div class="card bg-success mb-2">
+                                            <div clas="card-block">
+                                                <h4>Kilograms:</h4>
+                                                <div id="kgOutput"></div>
+                                            </div>
+                                        </div>
+                                        <div id="output">
+                                            <!-- Ounces -->
+                                            <div class="card bg-danger mb-2">
+                                                <div clas="card-block">
+                                                    <h4>Ounces:</h4>
+                                                    <div id="ozOutput"></div>
+                                                </div>
+                                            </div>
+                                            <!-- KiloNewtons -->
+                                            <div class="card bg-warning mb-2">
+                                                <div clas="card-block">
+                                                    <h4>Kilonewtons:</h4>
+                                                    <div id="knOutput"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                // document.("output").style.visibilgetElementByIdity = "hidden";
+                                document.getElementById("lbsInput").addEventListener("input", function(e) {
+                                    document.getElementById("output").style.visibility = "visible";
+                                    let lbs = e.target.value;
+                                    document.getElementById("gramsOutput").innerHTML = lbs / 0.0022046; //grams
+                                    document.getElementById("kgOutput").innerHTML = lbs / 2.2046; //kiloGrams
+                                    document.getElementById("ozOutput").innerHTML = lbs * 16; //ounces
+                                    document.getElementById("knOutput").innerHTML = lbs * 0.00445; //kiloNewtons
+                                });
+                            </script>
+
+
+                        </div>
+
+                        <!-- <div class="filter">
+    
+                            <ul id="filter">
+                                <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                                <li><a href="#" data-filter=".apps">Apps</a></li>
+                                <li><a href="#" data-filter=".me">Me</a></li>
+                                <li><a href="#" data-filter=".websites">websites</a></li>
+                                
+                            
+                            </ul> -->
+
+                    </div>
+
+                    <div class="itemsContainer">
+
+                        <div class="items">
+                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3"></li>
+
+                            <div class="item">
+
+
+                            </div>
+                            </li>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section softwareSection">
+        <div class="container">
+            <h4>Software, frame-works and libraies I use.</h4>
+            <div class="softwareTitle">          
+                <div class="table">
+                        <table class="table table-striped ">
+                                <thead>
+                                  <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Text Editors</th>
+                                    <th scope="col">Multimedia</th>
+                                    <th scope="col">Collaboration</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Visual Studio</td>
+                                    <td>GIMP</td>
+                                    <td>GitHub</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Sublime Text</td>
+                                    <td>Sony Vegas</td>
+                                    <td>Cloud 9</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Brackets</td>
+                                    <td>FL Studio/Audacity</td>
+                                    <td>Glitch</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+        <!-- BalmerButton -->
+        <!-- <div class="section buttonSection">
+            <div class="buttonContainer">
+                <div class="row">
+                    <div class="col-md">
+
+                    <div class="col-md">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="copyrightSection">
+            <div class="col-md-12 text-center">           
+                    </div><div class="mystery">
+                    <div class="col-sm">
+                        <a button type="button" href="https://youtu.be/Vhh_GeBPOhs" class="btn btn-inline"><i class="fab fa-youtube-square"></i></button></a>
+                    </div>
+                    </div>
+                <p>&copy; Daniel Lufcy 2019</p>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <script src="js/jquery.countUp.js"></script>
+        <script src="js/jquery.countUp-jquery.js"></script>
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></Script>
+
+        <script src="js/script.js"></script>
+</body>
+
+</html>
